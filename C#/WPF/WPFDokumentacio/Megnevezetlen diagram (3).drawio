@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 OPR/124.0.0.0" version="28.2.8">
+  <diagram name="1 oldal" id="2f87DhGkp_bnUbNx3On4">
+    <mxGraphModel dx="1153" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="App" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="App_Methods" value="+ OnStartup(e: StartupEventArgs)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="App" vertex="1">
+          <mxGeometry y="26" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="View" value="View: MainWindow" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="315" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="View_Methods" value="+ MainWindow()&#xa;- Window_KeyDown(sender, e)&#xa;- Window_KeyUp(sender, e)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="View" vertex="1">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="VM" value="ViewModel: MainViewModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="250" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_Props" value="- _mainGame: Game&#xa;- _fileManager: IFileManager&#xa;+ publicGameInfo: Game&#xa;+ MenuCommand: DelegateCommand&#xa;+ NewGameCommand: DelegateCommand" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VM" vertex="1">
+          <mxGeometry y="26" width="280" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_Sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="VM" vertex="1">
+          <mxGeometry y="120" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VM_Methods" value="+ MainViewModel(mainGame)&#xa;+ SetDirection(direction)&#xa;- OnEsc(obj)&#xa;- Maingame_GameUpdated(sender, e)&#xa;- OnSaveGame(obj)&#xa;- OnLoadGame(obj)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VM" vertex="1">
+          <mxGeometry y="128" width="280" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="VMBase" value="ViewModelBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="750" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VMBase_Content" value="+ PropertyChanged: EventHandler&#xa;# OnPropertyChanged(name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="VMBase" vertex="1">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Cmd" value="DelegateCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="575" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Cmd_Content" value="- _execute: Action&#xa;- _canExecute: Predicate&#xa;+ Execute(parameter)&#xa;+ CanExecute(parameter)&#xa;+ RaiseCanExecuteChanged()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Cmd" vertex="1">
+          <mxGeometry y="26" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Game" value="Model: Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="240" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Game_Props" value="+ mainMotor: Motor&#xa;+ mainRoadFuel: RoadFuel&#xa;+ mainMap: Map&#xa;+ mainTimer: ITimer&#xa;+ score: int&#xa;+ isPaused: bool&#xa;+ isGameOver: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Game" vertex="1">
+          <mxGeometry y="26" width="300" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="Game_Sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Game" vertex="1">
+          <mxGeometry y="140" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Game_Methods" value="+ Newgame()&#xa;+ UpdateGame()&#xa;+ Pause()&#xa;+ Resume()&#xa;+ SaveAsync(fileManager)&#xa;+ LoadGameAsync(fileManager)&#xa;- CheckOverlap(m, r)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Game" vertex="1">
+          <mxGeometry y="148" width="300" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="Motor" value="Model: Motor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="620" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Motor_Content" value="+ _fuel: double&#xa;+ _posX: double&#xa;+ Move(direction)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Motor" vertex="1">
+          <mxGeometry y="26" width="180" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Map" value="Model: Map" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="620" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Map_Content" value="+ _posY: double&#xa;+ Move(speed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Map" vertex="1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FileManager" value="FileManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="585" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="File_Content" value="+ SaveAsync(content)&#xa;+ LoadAsync()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="FileManager" vertex="1">
+          <mxGeometry y="26" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="" style="endArrow=open;html=1;dashed=1;endSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="App" target="View" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="" style="endArrow=open;html=1;dashed=1;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="App" target="VM" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" value="" style="endArrow=open;html=1;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="View" target="VM" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="" style="endArrow=block;html=1;endSize=12;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="VMBase" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="510" y="520" />
+              <mxPoint x="640" y="520" />
+              <mxPoint x="640" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" value="" style="endArrow=diamondThin;html=1;endSize=16;endFill=0;exitX=1;exitY=0.02;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="VM_Methods" target="Game" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="" style="endArrow=open;html=1;dashed=1;endSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Cmd" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="510" y="520" />
+              <mxPoint x="250" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7" value="" style="endArrow=open;html=1;dashed=1;endSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VM" target="FileManager" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="" style="endArrow=diamondThin;html=1;endSize=16;endFill=1;exitX=0.517;exitY=1.001;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="Game_Methods" target="Motor" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="560" />
+              <mxPoint x="760" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9" value="" style="endArrow=diamondThin;html=1;endSize=16;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.514;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Game_Methods" target="Map" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="874" y="560" />
+              <mxPoint x="970" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

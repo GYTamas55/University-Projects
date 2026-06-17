@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "623AiTbSevc=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\Gyorsulás_Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "projectPath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\Gyorsulás_Test.csproj",
+      "filePath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\Gyorsulás_Test.csproj",
+      "libraryId": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

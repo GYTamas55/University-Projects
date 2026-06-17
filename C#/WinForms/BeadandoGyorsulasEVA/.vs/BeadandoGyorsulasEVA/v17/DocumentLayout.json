@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\beadandogyorsulaseva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|solutionrelative:beadandogyorsulaseva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\beadandogyorsulaseva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|solutionrelative:beadandogyorsulaseva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\beadandogyorsulaseva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76B8FD8C-E35A-4D3C-BA7D-CE0447125B62}|BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA.csproj|solutionrelative:beadandogyorsulaseva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\gyorsul\u00E1s\\gyorsul\u00E1s.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|solutionrelative:gyorsul\u00E1s\\gyorsul\u00E1s.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\gyorsul\u00E1s\\model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|solutionrelative:gyorsul\u00E1s\\model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\gyorsul\u00E1s\\model\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C375032E-D45B-4E53-986E-EA15C4F33C4E}|Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj|solutionrelative:gyorsul\u00E1s\\model\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C972FB9-EB4D-42B2-BCFF-63444DB4C653}|Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\gyorsul\u00E1s_test\\gyorsulastest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C972FB9-EB4D-42B2-BCFF-63444DB4C653}|Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj|solutionrelative:gyorsul\u00E1s_test\\gyorsulastest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C972FB9-EB4D-42B2-BCFF-63444DB4C653}|Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj|c:\\users\\bazilika\\desktop\\kozsik nudes\\2.ev\\3.felev\\eva\\bead\\1\\beadando1.2\\beadandogyorsulaseva\\gyorsul\u00E1s_test\\gyorsul\u00E1s_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C972FB9-EB4D-42B2-BCFF-63444DB4C653}|Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj|solutionrelative:gyorsul\u00E1s_test\\gyorsul\u00E1s_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Program.cs",
+              "RelativeDocumentMoniker": "BeadandoGyorsulasEVA\\Program.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Program.cs",
+              "RelativeToolTip": "BeadandoGyorsulasEVA\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:42:26.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Form1.cs",
+              "RelativeDocumentMoniker": "BeadandoGyorsulasEVA\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Form1.cs [Design]",
+              "RelativeToolTip": "BeadandoGyorsulasEVA\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:42:10.702Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gyorsul\u00E1s.csproj",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj",
+              "RelativeDocumentMoniker": "Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj",
+              "RelativeToolTip": "Gyorsul\u00E1s\\Gyorsul\u00E1s.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-06T18:42:07.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Model\\Enums.cs",
+              "RelativeDocumentMoniker": "Gyorsul\u00E1s\\Model\\Enums.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Model\\Enums.cs",
+              "RelativeToolTip": "Gyorsul\u00E1s\\Model\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:48:23.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Gyorsulastest.cs",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s_Test\\Gyorsulastest.cs",
+              "RelativeDocumentMoniker": "Gyorsul\u00E1s_Test\\Gyorsulastest.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s_Test\\Gyorsulastest.cs",
+              "RelativeToolTip": "Gyorsul\u00E1s_Test\\Gyorsulastest.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAA3wDwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:25:27.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gyorsul\u00E1s_Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj",
+              "RelativeDocumentMoniker": "Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj",
+              "RelativeToolTip": "Gyorsul\u00E1s_Test\\Gyorsul\u00E1s_Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T17:23:34.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Form1.cs",
+              "RelativeDocumentMoniker": "BeadandoGyorsulasEVA\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\BeadandoGyorsulasEVA\\Form1.cs",
+              "RelativeToolTip": "BeadandoGyorsulasEVA\\Form1.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAwKAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:21:36.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Model\\Game.cs",
+              "RelativeDocumentMoniker": "Gyorsul\u00E1s\\Model\\Game.cs",
+              "ToolTip": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsul\u00E1s\\Model\\Game.cs",
+              "RelativeToolTip": "Gyorsul\u00E1s\\Model\\Game.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwG8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T15:35:49.595Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

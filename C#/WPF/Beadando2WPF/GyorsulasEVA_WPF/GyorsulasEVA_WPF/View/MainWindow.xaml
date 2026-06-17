@@ -1,0 +1,66 @@
+﻿<Window x:Class="GyorsulasEVA_WPF.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors" 
+        Title="Gyorsulás WPF" Height="800" Width="500">
+    
+    <i:Interaction.Triggers>
+
+        <i:EventTrigger EventName="KeyDown">
+            <i:InvokeCommandAction Command="{Binding KeyDownCommand}" PassEventArgsToCommand="True"/>
+        </i:EventTrigger>
+
+        <i:EventTrigger EventName="KeyUp">
+            <i:InvokeCommandAction Command="{Binding KeyUpCommand}" PassEventArgsToCommand="True"/>
+        </i:EventTrigger>
+
+    </i:Interaction.Triggers>
+    
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Window.Resources>
+
+    <Grid>
+        <Viewbox Stretch="Fill">
+              <!--1x1 relativ értékek miatt, ezzel a számolást el lehet kerülni -->
+            <Canvas Name="GameCanvas" Width="1" Height="1" Background="LightGray" ClipToBounds="True">
+                <!-- Map -->
+                <Rectangle Fill="White"
+                           Width="{Binding MapWidth}"
+                           Height="{Binding MapHeight}"
+                           Canvas.Left="{Binding MapX}"
+                           Canvas.Top="{Binding MapY}" />
+                <!-- Fuel -->
+                <Rectangle Fill="Goldenrod"
+                           Width="{Binding FuelWidth}"
+                           Height="{Binding FuelHeight}"
+                           Canvas.Left="{Binding FuelX}"
+                           Canvas.Top="{Binding FuelY}" />
+                <!-- Motor -->
+                <Rectangle Fill="MediumAquamarine"
+                           Width="{Binding MotorWidth}"
+                           Height="{Binding MotorHeight}"
+                           Canvas.Left="{Binding MotorX}"
+                           Canvas.Top="{Binding MotorY}" />
+            </Canvas>
+        </Viewbox>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
+            <!-- Etc data -->
+            <TextBlock Text="{Binding Score, StringFormat='Score: {0}'}" FontSize="16" FontWeight="Bold"/>
+            <TextBlock Text="{Binding MotorFuel, StringFormat='Fuel: {0:N1}'}" FontSize="16" FontWeight="Bold"/>
+            <TextBlock Text="{Binding ElapsedTime, StringFormat='Time: {0:N1}'}" FontSize="16" FontWeight="Bold"/>
+        </StackPanel>
+
+        <Border Background="#AA000000" 
+                Visibility="{Binding IsPaused, Converter={StaticResource BoolToVis}}">
+            <StackPanel Background="White" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Focusable="False" Content="New Game" Command="{Binding NewGameCommand}" Height="40" Width="150" Margin="5"/>
+                <Button Focusable="False" Content="Save" Command="{Binding SaveGameCommand}" Height="40" Width="150" Margin="5"/>
+                <Button Focusable="False" Content="Load" Command="{Binding LoadGameCommand}" Height="40" Width="150" Margin="5"/>
+                <Button Focusable="False" Content="Exit" Command="{Binding ExitGameCommand}" Height="40" Width="150" Margin="5"/>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

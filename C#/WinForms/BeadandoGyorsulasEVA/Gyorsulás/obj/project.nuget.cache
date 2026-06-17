@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "r63jS38lopY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás\\Gyorsulás.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bazilika\\.nuget\\packages\\elte.fi.saruleset\\3.2.1\\elte.fi.saruleset.3.2.1.nupkg.sha512",
+    "C:\\Users\\Bazilika\\.nuget\\packages\\microsoft.codeanalysis.bannedapianalyzers\\3.3.4\\microsoft.codeanalysis.bannedapianalyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\Bazilika\\.nuget\\packages\\roslynator.analyzers\\4.14.0\\roslynator.analyzers.4.14.0.nupkg.sha512",
+    "C:\\Users\\Bazilika\\.nuget\\packages\\sonaranalyzer.csharp\\10.15.0.120848\\sonaranalyzer.csharp.10.15.0.120848.nupkg.sha512"
+  ],
+  "logs": []
+}

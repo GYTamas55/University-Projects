@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bazilika\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\Gyorsulás_Test.csproj",
+      "projectName": "Gyorsulás_Test",
+      "projectPath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\Gyorsulás_Test.csproj",
+      "packagesPath": "C:\\Users\\Bazilika\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\1\\Beadando1.2\\BeadandoGyorsulasEVA\\Gyorsulás_Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Bazilika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj": {
+              "projectPath": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Bazilika\\Desktop\\Kozsik nudes\\2.ev\\3.felev\\EVA\\BEAD\\2\\Beadando2WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF\\GyorsulasEVA_WPF.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
